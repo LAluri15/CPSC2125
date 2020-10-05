@@ -1,0 +1,30 @@
+header, nav, main, footer { display: block; }
+* { box-sizing: border-box; }  
+body { background-color: rgb(31, 141, 95);
+      font-family: Verdana, Arial, sans-serif; 
+	  color:green;
+}
+.wrapper { width: 90%;
+           margin-right: auto;
+		   margin-left: auto;
+		   max-width: 1480px;
+		   background-color: #F5F5F5;
+}
+#header { background-color: #9BC1C2;
+	   background-position: right;
+	   background-repeat: no-repeat;
+	   height: 150px;
+}
+h1 { padding-top: 50px; padding-left: 2em;
+}
+#nav { float: left;
+      width: 160px;
+      font-weight: bold;
+      padding: 1em;
+}
+nav a:hover { color: green;
+            border: 3px inset #333333; }
+nav ul { list-style-type: none; padding-left: 0;}
+main { margin-left: 170px;
+      padding-top: 1em;
+	  padding-right: 2em;}
