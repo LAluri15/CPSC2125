@@ -1,0 +1,61 @@
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+  background-color: rgb(125, 155, 180);
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+.header {
+  grid-column: 1 / span 3;
+  grid-row: 1;
+}
+.nav {
+  grid-column: 1 / span 3;
+  grid-row: 2;
+}
+.nav {
+  background-color: gainsboro; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111111;
+}
+.section {
+	grid-column: 1 / span 2;
+  grid-row:3;
+  background-color: rgb(127, 218, 206); 
+  font-family: "Times New Roman", Times, serif;
+}
+.article {
+	grid-column: 1 / span 2;
+  grid-row:4;
+  background-color: lightgoldenrodyellow;  
+  font-family: "Times New Roman", Times, serif;
+}
+.aside {
+  grid-column: 3;
+  grid-row: 3 / span 2;
+  background-color: rgb(163, 105, 163); 
+  font-family: "Times New Roman", Times, serif;
+}
+.footer {
+  grid-column: 1 / span 3;
+  grid-row: 5;
+  background-color: rgb(165, 235, 147); 
+  font-family: "Times New Roman", Times, serif;
+}
